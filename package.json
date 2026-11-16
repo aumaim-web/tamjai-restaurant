@@ -1,0 +1,17 @@
+{
+  "name": "tamjai-restaurant",
+  "version": "1.0.0",
+  "description": "ระบบจัดการร้านอาหารตามใจ (Express + SQLite)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "reset": "node -e \"const s=require('./src/db/seed');s.init();s.reset();console.log('reset done')\""
+  },
+  "engines": {
+    "node": ">=22.13"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
